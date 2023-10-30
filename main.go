@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 
+	log "github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
 	"github.com/rancher/go-rancher-metadata/metadata"
 	"github.com/rancher/ipsec/arp"
@@ -11,7 +12,6 @@ import (
 	"github.com/rancher/ipsec/monitor"
 	"github.com/rancher/ipsec/server"
 	"github.com/rancher/ipsec/store"
-	"github.com/rancher/log"
 	logserver "github.com/rancher/log/server"
 )
 
