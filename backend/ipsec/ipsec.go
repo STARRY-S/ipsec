@@ -17,7 +17,9 @@ import (
 	"github.com/bronze1man/goStrongswanVici"
 	"github.com/rancher/go-rancher-metadata/metadata"
 	"github.com/rancher/ipsec/store"
-	"github.com/rancher/log"
+
+	// "github.com/rancher/log"
+	log "github.com/Sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 )
 

@@ -27,8 +27,6 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rancher/go-rancher-metadata v0.0.0-20180111235023-489c123d146f h1:ZsxRhr9KE5cnm/Md5gnF2Mqw4fsvjTp2mJPm70zkSBE=
 github.com/rancher/go-rancher-metadata v0.0.0-20180111235023-489c123d146f/go.mod h1:2GCT10S59Rl3M/hwW7BG6MMCqvuedd7VWJ1TneSeWsQ=
-github.com/rancher/log v0.1.2 h1:tCozDe6VV4U9QR//ELfF7Xjkk2oXCzqNWnhlo+SdeWQ=
-github.com/rancher/log v0.1.2/go.mod h1:HzDw5KzQ4jP7jjQ6V7IdMPCsIyTt8D7DS8AenrdX7wg=
 github.com/rancher/plugin-manager v0.8.8 h1:QgpfK2GbPXCcGtpbJdHNDxy6djP6Gc1BTbTIZSkvo5Q=
 github.com/rancher/plugin-manager v0.8.8/go.mod h1:LPWtI3cUZxu87VBgjlChJn/E0dOWpWF6elybEgpXZNs=
 github.com/russross/blackfriday/v2 v2.1.0 h1:JIOH55/0cWyOuilr9/qlrm0BSXldqnqwMsf35Ld67mk=

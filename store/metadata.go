@@ -7,7 +7,10 @@ import (
 
 	"github.com/rancher/go-rancher-metadata/metadata"
 	"github.com/rancher/ipsec/utils"
-	"github.com/rancher/log"
+
+	// "github.com/rancher/log"
+	log "github.com/Sirupsen/logrus"
+
 	pmutils "github.com/rancher/plugin-manager/utils"
 )
 

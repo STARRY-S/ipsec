@@ -7,7 +7,9 @@ import (
 	"github.com/mdlayher/arp"
 	"github.com/mdlayher/ethernet"
 	"github.com/rancher/ipsec/store"
-	"github.com/rancher/log"
+
+	// "github.com/rancher/log"
+	log "github.com/Sirupsen/logrus"
 )
 
 // ListenAndServe starts ARP proxy server

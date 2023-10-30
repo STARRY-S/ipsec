@@ -12,7 +12,6 @@ import (
 	"github.com/rancher/ipsec/monitor"
 	"github.com/rancher/ipsec/server"
 	"github.com/rancher/ipsec/store"
-	logserver "github.com/rancher/log/server"
 )
 
 const (
@@ -96,7 +95,7 @@ func main() {
 }
 
 func appMain(ctx *cli.Context) error {
-	logserver.StartServerWithDefaults()
+	// logserver.StartServerWithDefaults()
 	if ctx.GlobalBool("test-charon") {
 		if err := ipsec.Test(); err != nil {
 			log.Fatalf("Failed to talk to charon: %v", err)
@@ -105,7 +104,8 @@ func appMain(ctx *cli.Context) error {
 	}
 
 	if ctx.GlobalBool("debug") {
-		log.SetLevelString("debug")
+		// log.SetLevelString("debug")
+		log.SetLevel(log.DebugLevel)
 	}
 
 	done := make(chan error)

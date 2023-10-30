@@ -5,7 +5,8 @@ import (
 	"net/http"
 
 	"github.com/rancher/ipsec/backend"
-	"github.com/rancher/log"
+	// "github.com/rancher/log"
+	log "github.com/Sirupsen/logrus"
 )
 
 // Server structure is used to the store backend information

@@ -13,7 +13,6 @@ require (
 	github.com/mdlayher/arp v0.0.0-20161003162651-d035564bbb23
 	github.com/mdlayher/ethernet v0.0.0-20220221185849-529eae5b6118
 	github.com/rancher/go-rancher-metadata v0.0.0-20180111235023-489c123d146f
-	github.com/rancher/log v0.1.2
 	github.com/rancher/plugin-manager v0.8.8
 	github.com/vishvananda/netlink v1.1.0
 )
@@ -21,7 +20,6 @@ require (
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/josharian/native v1.0.0 // indirect
-	github.com/konsorten/go-windows-terminal-sequences v1.0.1 // indirect
 	github.com/mdlayher/packet v1.0.0 // indirect
 	github.com/mdlayher/raw v0.1.0 // indirect
 	github.com/mdlayher/socket v0.2.1 // indirect
